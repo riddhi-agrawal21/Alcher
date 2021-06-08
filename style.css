@@ -1,25 +1,21 @@
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  
+
+  body{ text-align: center; background-color: violet;}
   .image{ z-index: -1; 
     width: 100%;
-    height: auto;max-width: 100%;}
+    height: 100%; padding-left: 0px;}
 
   .top-left {
     position: absolute;
     top: 8px;
     left: 56px;
-  }
-  
+  } 
+
   .top-right {
     position: absolute;
     top: 8px;
     right: 55px;
   }
-  .button{ margin-top: 50px; font-size: 20px; color: palevioletred;}
+  .button{ margin-top: 50px; font-size: 20px;}
   .centered {
     position: absolute;
     top: 50%;
@@ -31,10 +27,19 @@
     -webkit-text-stroke-width: 1.5px;
    font-family: 'Poppins', sans-serif;
   }
-  .container{
-    display: flex; justify-content: space-between;
-  }
-  .hits{ padding-left: 80px;}
-  .bottom{ background-color: gray;}
-  .copyright{ color: white;}
-  .img{ height: 200px; width: 300px;border-radius: 4px;}
+  .hits{ padding-left: 45px; align-self: flex-start; display: flex; padding-top: 6px; padding-bottom:0px; font-size: 20px;}
+  
+  .copyright{ color: white; padding-bottom: 26px;}
+  .img{ height: 200px; width: 300px;border-radius: 6px; }
+  
+  .td{ padding-top: 3px; text-align: left;}
+ .table{ border: 0px solid transparent; align-self: center; display: flex; padding-left: 40px; padding-top: 0px;}
+
+
+ #image 
+ {
+     width: 100% ;
+ }
+ .bottom{ background-color:#232323;}
+ .b1{ display: flex; justify-content:center; padding-bottom: 50px; padding-top: 50px;}
+ .b2{ color: white; padding-right: 3px; padding-left: 3px;}
