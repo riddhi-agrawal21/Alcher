@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .image{ z-index: -1; 
+    width: 100%;
+    height: auto;max-width: 100%;}
+
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 56px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 55px;
+  }
+  .button{ margin-top: 50px; font-size: 20px; color: palevioletred;}
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 42px;
+    transform: translate(-50%, -50%);
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+   font-family: 'Poppins', sans-serif;
+  }
+  .container{
+    display: flex; justify-content: space-between;
+  }
+  .hits{ padding-left: 80px;}
+  .bottom{ background-color: gray;}
+  .copyright{ color: white;}
+  .img{ height: 200px; width: 300px;border-radius: 4px;}
